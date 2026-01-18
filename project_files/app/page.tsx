@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight, QrCode, BarChart3, Globe } from "lucide-react";
 
 export default function Home() {
@@ -9,8 +8,8 @@ export default function Home() {
             <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
                 <div className="container flex h-14 items-center justify-between">
                     <div className="flex items-center gap-2 font-bold text-xl">
-                        <Image src="/logo.png" alt="Thai QR Logo" width={32} height={32} className="object-contain" />
-                        <span>Thai QR</span>
+                        <QrCode className="h-6 w-6" />
+                        <span>Dynamic QR</span>
                     </div>
                     <nav className="flex items-center gap-4">
                         <Link href="/login" className="text-sm font-medium hover:underline underline-offset-4">
@@ -38,7 +37,7 @@ export default function Home() {
                             Follow on Twitter
                         </Link>
                         <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
-                            The Next Generation of <br /> Thai QR Codes
+                            The Next Generation of <br /> Dynamic QR Codes
                         </h1>
                         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8 text-balance">
                             Create beautiful, trackable QR codes in seconds. Real-time analytics,
