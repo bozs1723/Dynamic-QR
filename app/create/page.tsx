@@ -103,7 +103,7 @@ export default function CreateQRPage() {
                 <div className="md:col-span-7 lg:col-span-8 space-y-6">
                     <div className="space-y-2">
                         <h1 className="text-3xl font-bold tracking-tight">Create QR Code</h1>
-                        <p className="text-muted-foreground">Configure the destination and design of your dynamic QR code.</p>
+                        <p className="text-muted-foreground">Configure the destination and design of your Thai QR code.</p>
                     </div>
 
                     <Card>

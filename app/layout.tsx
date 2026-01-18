@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-    title: "Dynamic QR - Premium Generator & Analytics",
+    title: "Thai QR - Premium Generator & Analytics",
     description: "High-end dynamic QR code generator with real-time analytics.",
 };
 

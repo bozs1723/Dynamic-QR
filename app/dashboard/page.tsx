@@ -62,7 +62,7 @@ export default function DashboardPage() {
                     <div className="flex flex-col items-center justify-center rounded-lg border border-dashed p-12 text-center">
                         <QrCode className="h-10 w-10 text-muted-foreground mb-4" />
                         <h3 className="text-lg font-semibold">No QR codes yet</h3>
-                        <p className="text-sm text-muted-foreground mb-4">Create your first dynamic QR code to get started.</p>
+                        <p className="text-sm text-muted-foreground mb-4">Create your first Thai QR code to get started.</p>
                         <Link href="/create">
                             <Button>Create QR Code</Button>
                         </Link>
